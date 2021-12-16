@@ -18,7 +18,7 @@ import { V0_FEED_MODELS, V0_USER_MODELS } from "./controllers/v0/model.index";
   console.log("Database Connected");
 
   const app = express();
-  const port = process.env.PORT || 'http://udagramapi-env.eba-evm5d6z3.us-east-1.elasticbeanstalk.com/';
+  const port = 8080
   //const port = process.env.PORT;
 
   app.use(bodyParser.json());
